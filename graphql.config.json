@@ -1,8 +1,0 @@
-{
-  "schema": "apps/core/schema.graphql",
-  "documents": [
-    "apps/core/client/queries/**/*.ts",
-    "apps/core/client/mutations/**/*.ts",
-    "apps/core/client/fragments/**/*.ts"
-  ]
-}
