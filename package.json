@@ -6,10 +6,10 @@
     "typecheck": "tsc --noEmit",
     "lint": "next lint",
     "test": "jest",
-    "dev": "npm run generate && next dev",
+    "dev": "npm run generate && next dev -p 3003",
     "generate": "dotenv -e .env.local -- node ./scripts/generate.cjs",
     "build": "npm run generate && next build",
-    "start": "next start"
+    "start": "next start -p 3003"
   },
   "dependencies": {
     "@bigcommerce/catalyst-client": "^0.3.0",
