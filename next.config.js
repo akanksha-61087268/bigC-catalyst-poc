@@ -1,3 +1,8 @@
+// Makeswift
+const createWithMakeswift = require("@makeswift/runtime/next/plugin")
+const withMakeswift = createWithMakeswift()
+
+
 // @ts-check
 const createNextIntlPlugin = require('next-intl/plugin');
 
@@ -47,3 +52,4 @@ const nextConfig = {
 
 module.exports = withMakeswift(nextConfig);
 module.exports = withNextIntl(nextConfig);
+
